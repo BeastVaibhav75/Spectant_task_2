@@ -19,7 +19,8 @@ export default function FeedbackForm() {
     setStatus({ type: null, message: '' });
 
     try {
-      const response = await axios.post('http://localhost:5000/feedback', {
+      const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+      const response = await axios.post(`${apiBaseUrl}/feedback`, {
         name,
         email,
         feedback,
