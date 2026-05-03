@@ -5,6 +5,8 @@ This project is a simple **Feedback Form System** consisting of a Next.js fronte
 
 **Live Demo**: [https://spectant-task-2.vercel.app/](https://spectant-task-2.vercel.app/)
 
+![Project Preview](./Screenshot%202026-05-03%20124431.png)
+
 ### Tech Stack
 - **Frontend**: Next.js 15, Tailwind CSS, Axios
 - **Backend**: Node.js, Express, `express-rate-limit`
